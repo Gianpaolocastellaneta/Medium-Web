@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+header {
+    display: flex;
+    top: 0;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-shadow: 10px 10px 5px #f2f1f1;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.profile {
+    color: grey;
+}
+
+button {
+    border-radius: 20px;
+    color: grey;
+    background-color: white;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+#superContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 50px;
+
+}
+
+main {
+    padding: 20px;
+    width: 900px;
+}
+
+.nav-options {
+    padding-bottom: 30px;
+    font-size: 17px;
+    color: grey;
+}
+
+.nav-options a:hover {
+    color: black;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+}
+
+.autors {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.autors img {
+    max-width: 100%;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+p a {
+    text-decoration: none;
+    color: grey;
+}
+
+span,
+h2 {
+    font-weight: bold;
+    color: black;
+    margin: auto;
+}
+
+.img-article {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    max-width: 35%;
+}
+
+.publications .img-article img {
+    width: 100%;
+    height: auto;
+
+}
+
+.publications {
+    display: flex;
+    padding: 20px;
+}
+
+.publications div:last-child {
+    order: -1;
+}
+
+.autors img p {
+    margin-left: 10px;
+}
+
+.tags {
+    display: flex;
+}
+
+.cont-text {
+    width: 559px;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.vertical-hr {
+    border-left: 1px solid grey;
+    height: 1410px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+aside {
+    width: 33%;
+    padding: 20px;
+}
+
+aside button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 auto;
+    color: black;
+    border-radius: 30px
+}
+
+.suggestion {
+    margin-bottom: 50px;
+}
+
+.suggestion-top h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.suggestion-top p {
+    text-decoration: underline;
+    color: grey;
+}
+
+.bg-grey {
+    background-color: #fffefe;
+}
+
+.m-b50 {
+    margin-bottom: 50px;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.center-content img {
+    width: 25px;
+
+}
+
+.word-list {
+    padding: 0 150px 0px 0px
+}
+
+.word-list button {
+    margin-bottom: 10px;
+    border: transparent;
+    background-color: rgb(219, 218, 218);
+}
+
+
+.word-list button li {
+    display: inline-block;
+
+
+}
+
+.people-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.people-list button {
+    border-radius: 20px;
+    margin: 0;
+}
+
+.people-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.people-list li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+
+.mrg-r66 {
+    margin-right: 70px;
+}
+
+.mrg-r15 {
+    margin-right: 15px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.color-grey {
+    color: rgb(123, 123, 123);
+}
+
+.color-green {
+    color: rgb(85, 168, 85);
+}
+
+.m-b30 {
+    margin-bottom: 30px;
+}
+
+.m-connect {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tag-list {
+    padding: 0 100px 0px 0px
+}
+
+.tag-list button {
+    margin-bottom: 10px;
+    border: transparent;
+    background-color: #fffefe;
+}
+
+
+.tag-list button li {
+    display: inline-block;
+    color: rgb(196, 194, 194);
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+footer {
+    height: 50px;
+    background-color: white;
+    padding-top: 40px;
+    text-align: center;
+}
